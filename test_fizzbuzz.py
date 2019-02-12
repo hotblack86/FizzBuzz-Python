@@ -1,23 +1,24 @@
 import pytest
 from fizzbuzz import *
 
-def test_fizzbuzz1():
+class TestFizzBuzz(object):
+  def test_1(self):
     assert fizzbuzz(3) == 'fizz'
 
-def test_fizzbuzz2():
+  def test_2(self):
     assert fizzbuzz(5) == 'buzz' 
 
-def test_fizzbuzz3():
+  def test_3(self):
     assert fizzbuzz(15) == 'fizzbuzz'
 
-def test_fizzbuzz4():
+  def test_4(self):
     assert fizzbuzz(37) == 37
 
-def test_fizzbuzz5():
+  def test_5(self):
     assert fizzbuzz(6) == 'fizz'
 
-def test_fizzbuzz6():
+  def test_6(self):
     assert fizzbuzz(10) == 'buzz'
 
-def test_fizzbuzz7():
+  def test_7(self):
     assert fizzbuzz(45) == 'fizzbuzz'        
