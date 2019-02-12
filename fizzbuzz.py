@@ -1,7 +1,8 @@
 def fizzbuzz(x):
 
-  if x % 15 == 0: return 'fizzbuzz'
-  if x % 3 == 0: return 'fizz'
-  if x % 5 == 0: return 'buzz'
+  if x % 15 == 0: return ('fizzbuzz')
+  elif x % 3 == 0: return ('fizz')
+  elif x % 5 == 0: return ('buzz')
+  else: return (x)
   
   
